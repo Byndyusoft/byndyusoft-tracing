@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Authors>Byndyusoft</Authors>
+    <PackageTags>Byndyusoft;Tracing</PackageTags>
+    <RepositoryUrl>https://github.com/Byndyusoft/byndyusoft-tracing</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+</Project>

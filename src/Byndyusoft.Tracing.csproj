@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageId>Byndyusoft.Tracing</PackageId>
+	<Title>Byndyusoft.Tracing</Title>
+	<Version>0.1.0</Version>
+	<Authors>Byndyusoft</Authors>
+	<PackageTags>Byndyusoft .Net Tracing</PackageTags>
+	<RepositoryUrl>https://github.com/Byndyusoft/byndyusoft-tracing</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CaseExtensions" Version="1.0.3" />
+    <PackageReference Include="Jaeger" Version="0.4.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="OpenTracing.Contrib.NetCore" Version="0.7.1" />
+  </ItemGroup>
+
+</Project>
