@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-	<PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<PackageId>Byndyusoft.Tracing</PackageId>
-	<Title>Byndyusoft.Tracing</Title>
-	<Version>0.1.0</Version>
-	<Authors>Byndyusoft</Authors>
-	<PackageTags>Byndyusoft .Net Tracing</PackageTags>
-	<RepositoryUrl>https://github.com/Byndyusoft/byndyusoft-tracing</RepositoryUrl>
+    <TargetFramework>net5.0</TargetFramework>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageId>Byndyusoft.Tracing</PackageId>
+	  <Title>Byndyusoft.Tracing</Title>
+	  <Version>0.1.0</Version>
+	  <Authors>Byndyusoft</Authors>
+	  <PackageTags>Byndyusoft .Net Tracing</PackageTags>
+	  <RepositoryUrl>https://github.com/Byndyusoft/byndyusoft-tracing</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
