@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Byndyusoft.MaskedSerialization.Newtonsoft" Version="1.1.0-alpha" />
+    <PackageReference Include="Byndyusoft.MaskedSerialization.Newtonsoft" Version="2.0.0" />
     <PackageReference Include="CaseExtensions" Version="1.1.0" />
     <PackageReference Include="Jaeger" Version="1.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
