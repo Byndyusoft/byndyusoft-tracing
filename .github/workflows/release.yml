@@ -4,6 +4,7 @@ on:
     types: [published]
     branches:
       - master # Default release branch
+      - 'feature/**'
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -33,7 +34,7 @@ jobs:
         run: dotnet test
         
       - name: publish
-        uses: rohith/publish-nuget@v2
+        uses: alirezanet/publish-nuget@v3.0.0
         with:
           PROJECT_FILE_PATH: src/Byndyusoft.Tracing.csproj
           VERSION_FILE_PATH: Directory.Build.props
